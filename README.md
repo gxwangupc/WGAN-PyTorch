@@ -38,8 +38,7 @@ By replacing the option of *--category*, you can download data of each category 
 Download the whole data set.<br> 
 ### Generate images using the trained model: <br>
 
-	python3 GenerateImg.py --config ./results/models/generator_config.json --weights ./results/models/netG_epoch_24.pth --outpu
-t ./output --nimgs 100 --cuda
+python3 GenerateImg.py --config ./results/models/generator_config.json --weights ./results/models/netG_epoch_24.pth --output ./output --nimgs 100 --cuda
 
 You can replace the above options as you want.
 
