@@ -1,7 +1,7 @@
 # Wasserstein GAN (WGAN)
 -------------------------------------------------
 ## Introduction
- * I have slightly adapted the original author's code:<br>
+ * I have adapted the original author's code:<br>
 <https://github.com/martinarjovsky/WassersteinGAN> <br>
  * The file download_lsun.py comes from a nice repository for downloading LSUN dataset:<br>
 <https://github.com/fyu/lsun> <br>
