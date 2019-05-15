@@ -156,7 +156,7 @@ Create a generator and apply the weights_init function to randomly initialize al
 if opt.noBN:
     netG = DCGAN_G_nobn(opt.nz, opt.ngf, opt.nc, opt.ngpu)
 elif opt.MLP_G:
-    netG = MLP_G(opt.nz, opt.ngf, opt.nc, opt.isize, opt.ngpu)
+    netG = MLP_G(opt.nz, opt.ngf, opt.nc, opt.img_size, opt.ngpu)
 else:
     netG = DCGAN_G(opt.nz, opt.ngf, opt.nc, opt.ngpu)
 
