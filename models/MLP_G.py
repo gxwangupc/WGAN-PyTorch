@@ -43,7 +43,7 @@ class MLP_G(torch.nn.Module):
      #output_device:GPU location of the output Use -1 to indicate the CPU. (default: device_ids[0])
     '''
     def forward(self, input):
-        #input = input.view(input.size(0), input.size(1))
+        input = input.view(input.size(0), input.size(1))
         #if isinstance(input.data, torch.cuda.FloatTensor) and self.ngpu > 1:
         if input.is_cuda and self.ngpu > 1:
             output = torch.nn.parallel.data_parallel(self.main, input, range(self.ngpu))
