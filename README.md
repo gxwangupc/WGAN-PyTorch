@@ -47,7 +47,6 @@ You can replace the above options as you want.
  * You can test the WGAN without batch normalizaiton by adding an option '--noBN'.<br>
  * You can also test WGAN in terms of MLP by adding an option '--MLP'.<br>
  * CPU is supported but training is very slow. You can run the code without the option'--cuda'.<br> 
- * I will try to implement the Improved-WGAN（WGAN-GP）soon.<br>
  
 ## References 
 1. <https://github.com/martinarjovsky/WassersteinGAN> <br>
